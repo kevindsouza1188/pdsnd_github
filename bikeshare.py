@@ -32,7 +32,7 @@ def get_filters():
     # Get user input for month (all, january, february, ... , june)
     month_flag = True            # Set the month flag boolean variable to True
 
-    months=['january','february','march','april','may','june','all']			# Valid list of entries for month
+    months=['january','february','march','april','may','june','july','august','september','october','november','december','all']			# Valid list of entries for month
 
     while month_flag:            # While loop to ensure that the user enters the correct month name or all
         try:
