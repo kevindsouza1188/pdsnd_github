@@ -8,8 +8,8 @@ Bike Share
 The Bike Share project is an interactive python project that takes the user input for a given city out of 3 select cities (Chicago, New York City and Washington) and provides descriptive statistics about the trips taken, the duration, the most frequqently used stations for picking up and dropping off bikes etc.
 
 ### Files used
-Include the files used
+The project includes 3 raw data files corresponding to each city and the python file to compute the statistics information. 
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Project inspired by Udacity
 
