@@ -248,7 +248,8 @@ def get_raw_data(df):
             print(df[line : line+5])
             line += 5
         else:
-            break    
+            break
+    print('-'*40)
     
     
     
