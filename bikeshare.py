@@ -146,7 +146,7 @@ def station_stats(df):
     """Displays statistics on the most popular stations and trip.
 
     Args:
-        df - dataframe to compute time statistics on
+        df - dataframe to compute station statistics on
     Returns:
         Nothing. Displays the output to the console."""
 
@@ -173,7 +173,12 @@ def station_stats(df):
     
     
 def trip_duration_stats(df):
-    """Displays statistics on the total and average trip duration."""
+    """Displays statistics on the total and average trip duration.
+
+    Args:
+        df - dataframe to compute trip duration statistics on
+    Returns:
+        Nothing. Displays the output to the console."""
 
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
@@ -195,7 +200,12 @@ def trip_duration_stats(df):
     
     
 def user_stats(df):
-    """Displays statistics on bikeshare users."""
+    """Displays statistics on bikeshare users.
+
+    Args:
+        df - dataframe to compute user statistics on
+    Returns:
+        Nothing. Displays the output to the console."""
 
     print('\nCalculating User Stats...\n')
     start_time = time.time()
@@ -238,6 +248,10 @@ def get_raw_data(df):
     Check if user wishes to look at 5 lines of raw data.
     Returns the 5 lines of raw data if user inputs 'yes'. Iterate until user responds with a 'no'.
 
+    Args:
+        df - dataframe to fetch raw data
+    Returns:
+        Nothing. Displays the raw data to the console.
     """
     line = 0
 
